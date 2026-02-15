@@ -12,11 +12,15 @@ With all the necessary information available and the TeleBot library working, it
 
 The main functionality, however, was more complex. Sending /mammad starts the expense tracking workflow. This requires multiple inline buttons, each with a specific function. First, we specify which gang members are participating in the activity. Then, we provide details about the activity:
 
-Type of activity:
+**Type of activity**:
+
 Group -> when everyone shares equally.
+
 Individual -> when each person has their own share.
-Participants: not all gang members are always involved
-Payer: the person who paid
+
+**Participants**: not all gang members are always involved
+
+**Payer**: the person who paid
 
 After collecting all this information, the bot calculates each person’s share and generates an optimized settlement plan with minimal transactions.
 
